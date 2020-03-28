@@ -12,6 +12,9 @@ namespace StudentManagement
 {
     public class Startup
     {
+        /// <summary>
+        /// 配置
+        /// </summary>
         private readonly IConfiguration _configuration;
 
         public Startup(IConfiguration configuration)
